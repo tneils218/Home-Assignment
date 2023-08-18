@@ -8,6 +8,8 @@ Những công việc đã làm trong phần bài tập này
  3. Tạo một component Button chung để có thể tái sử dụng.
  4. Hiển thị lên giao diện.
  5. Sử dụng storybook để hiển thị component và show code.
+
+
 Những công việc chưa làm được trong phần bài tập này
  1. set up husky để có thể pre-commit
  2. khi thay đổi label ở trong storybook thì ở phần show code chưa thay đổi được tên
