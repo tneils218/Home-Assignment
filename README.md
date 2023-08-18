@@ -18,3 +18,8 @@ Hướng dẫn sử dụng project
 1. Npm i (requirement node 20 + )
 2. Npm run dev để xem giao diện của component ( port:3000 )
 3. Npm run storybook để có thể xem giao diện component ở trên sotybook ( port:6006 )
+4. Preview kết quả build bằng câu lệnh npm run preview
+5. Kiểm tra dự án có bị lỗi gì liên quan ESLint không: npm run lint
+6. Tự động fix các lỗi liên quan ESLint (không phải cái gì cũng fix được, nhưng fix cũng nhiều): npm run lint:fix
+7. Kiểm tra dự án có bị lỗi gì liên quan Prettier không: npm run prettier
+8. Tự động fix các lỗi liên quan Prettier: npm run prettier:fix
