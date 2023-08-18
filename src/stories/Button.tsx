@@ -1,17 +1,17 @@
 import { Group } from "@mantine/core";
-import { MatineButton } from "./component/Button/MantineButton";
+import { MantineButton } from "../component/Button/MantineButton";
 import { IconBrush } from "@tabler/icons-react";
 
-function App() {
+export const Button = () => {
   return (
     <Group position="center" spacing="xs">
-      <MatineButton
+      <MantineButton
         children="Customize"
         leftIcon={<IconBrush size="1rem" />}
         radius="sm"
         color="grey"
       />
-      <MatineButton
+      <MantineButton
         children="Copy code"
         color="dark"
         variant="filled"
@@ -19,6 +19,4 @@ function App() {
       />
     </Group>
   );
-}
-
-export default App;
+};
